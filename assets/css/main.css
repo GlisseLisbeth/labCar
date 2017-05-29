@@ -1,12 +1,27 @@
 body{
     color: white;
 }
-
+.navbar-header{
+    background: white !important;
+    border: none !important;
+}
+.navbar-toggle{
+    border-color: transparent !important;
+    position: absolute !important;
+    left: 10px !important;
+}
 #hero{
     background-image: url("../img/taxi.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 0 -1230px;
+    min-height: 102vh;
+    overflow: hidden;
+}
+#hero-2{
+    background-image: url("../img/taxi.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
     min-height: 102vh;
     overflow: hidden;
 }
@@ -44,6 +59,10 @@ p{
     margin: 5em 20em 5em 0;
     border: 1px solid white;
 }
+.border-xs{
+    margin: 20px 20px 20px 20px;
+    border: 1px solid white;
+}
 .border-left{
     border-left: none;
 }
@@ -72,6 +91,13 @@ p{
     right: 0;
     overflow:  hidden;
     height: 78vh;
+    max-height: 100%;
+}
+@media(max-width: @screen-sm-max){
+.bloque-text-conduce{
+    height: 70vh;
+}
+    
 }
 .margin-text-conduce{
     margin: 100px 60px;
@@ -122,4 +148,7 @@ footer a:active, footer a:focus{
 }
 .padding-footer{
     padding-bottom: 5em;
+}
+.padding-left-30{
+    padding-left: 30%;
 }
