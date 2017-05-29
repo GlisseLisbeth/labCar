@@ -17,7 +17,7 @@ body{
 .pos-absolute{
     position: absolute;
 }
-.bloque-text{
+.bloque-text-hero{
     right: 0;
     top: 40%;
     margin: 15px 0;
@@ -25,7 +25,7 @@ body{
 .hr{
     position: absolute;
 }
-.margin-text{
+.margin-text-hero{
     margin: 40px 60px;
 }
 .hr-text{
@@ -43,12 +43,67 @@ p{
 .border{
     margin: 5em 20em 5em 0;
     border: 1px solid white;
+}
+.border-left{
     border-left: none;
 }
 .padding-left-0{
     padding-left: 0px !important;
 }
+.padding-rigth-0{
+    padding-right: 0px !important;
+}
 .padding-informacion{
     padding-top: 5em;
     padding-bottom: 5em;
+}
+#conduce{
+    background-image: url("../img/conduce.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 90%;
+    background-position:  0 -70px;
+    min-height: 100vh;
+    
+}
+.bloque-text-conduce{
+    background:  black;
+    opacity: 0.8;
+    top:0;
+    right: 0;
+    overflow:  hidden;
+    height: 78vh;
+}
+.margin-text-conduce{
+    margin: 100px 60px;
+}
+#tarifa{
+    margin-top: -150px;
+}
+#map{
+    width: 100%;
+    height: 60vh;
+}
+.form-control{
+    background-color: #f7b617;
+    border: 1px solid #fff;
+    border-radius: 5px !important;
+}
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-control:-moz-placeholder {
+  color: #fff;
+}
+.form-control {
+  color: #fff;
+}
+.form-control[placeholder] {
+  color: #fff;
+}
+.input-group-addon {
+     background-color: transparent!important; 
+     border: 1px solid transparent !important; 
+}
+.margin-5{
+    margin: 5%;
 }
