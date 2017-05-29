@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 0 -1230px;
-    min-height: 100vh;
+    min-height: 102vh;
     overflow: hidden;
 }
 
@@ -36,4 +36,19 @@ body{
 .btn-default{
     color: black !important;
     border: none !important;
+}
+p{
+    font-size: 20px;
+}
+.border{
+    margin: 5em 20em 5em 0;
+    border: 1px solid white;
+    border-left: none;
+}
+.padding-left-0{
+    padding-left: 0px !important;
+}
+.padding-informacion{
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
