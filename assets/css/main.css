@@ -107,3 +107,19 @@ p{
 .margin-5{
     margin: 5%;
 }
+footer{
+    background: gray;
+}
+footer a{
+    color: white !important;
+    font-size:  1em;
+}
+footer a:active, footer a:focus{
+    background: white !important;
+}
+#redes-sociales{
+    font-size: 1em;
+}
+.padding-footer{
+    padding-bottom: 5em;
+}
