@@ -1,0 +1,39 @@
+body{
+    color: white;
+}
+
+#hero{
+    background-image: url("../img/taxi.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -1230px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.background{
+    background: #f7b617;
+}
+.pos-absolute{
+    position: absolute;
+}
+.bloque-text{
+    right: 0;
+    top: 40%;
+    margin: 15px 0;
+}
+.hr{
+    position: absolute;
+}
+.margin-text{
+    margin: 40px 60px;
+}
+.hr-text{
+    bottom: 25%;
+    left: 46%;
+    padding: 0 30px;
+}
+.btn-default{
+    color: black !important;
+    border: none !important;
+}
